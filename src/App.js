@@ -6,11 +6,11 @@ import Title from './components/Title';
 class App extends React.Component {
   render() {
     return (
-      <>
+      <section>
         <Header />
         <SolarSystem />
         <Title />
-      </>
+      </section>
     );
   }
 }
